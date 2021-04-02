@@ -1,0 +1,84 @@
+2021-01-22 09:30:37.519 [INFO] [20644] [StartupInfoLogger:55] Starting TestdataApplication using Java 1.8.0_71 on DESKTOP-M9LL5PG with PID 20644 (C:\Users\Chinadaas\test\use\target\classes started by Chinadaas in C:\Users\Chinadaas\test\use)
+2021-01-22 09:30:37.525 [INFO] [20644] [SpringApplication:660] No active profile set, falling back to default profiles: default
+2021-01-22 09:30:38.520 [INFO] [20644] [DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8088"]
+2021-01-22 09:30:38.521 [INFO] [20644] [DirectJDKLog:173] Starting service [Tomcat]
+2021-01-22 09:30:38.521 [INFO] [20644] [DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-22 09:30:38.595 [INFO] [20644] [DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-01-22 09:30:39.108 [INFO] [20644] [PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-22 09:30:39.266 [INFO] [20644] [DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8088"]
+2021-01-22 09:30:39.280 [INFO] [20644] [DocumentationPluginsBootstrapper:160] Context refreshed
+2021-01-22 09:30:39.293 [INFO] [20644] [DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+2021-01-22 09:30:39.317 [INFO] [20644] [ApiListingReferenceScanner:41] Scanning for api listing references
+2021-01-22 09:30:39.433 [INFO] [20644] [StartupInfoLogger:61] Started TestdataApplication in 2.527 seconds (JVM running for 3.49)
+2021-01-22 09:32:58.280 [INFO] [20644] [DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-22 09:33:08.803 [INFO] [20644] [HikariDataSource:110] HikariPool-1 - Starting...
+2021-01-22 09:33:09.002 [INFO] [20644] [PoolBase:535] HikariPool-1 - Driver does not support get/set network timeout for connections. (不支持的接口或功能)
+2021-01-22 09:33:09.056 [INFO] [20644] [HikariDataSource:123] HikariPool-1 - Start completed.
+2021-01-22 09:33:23.130 [INFO] [20644] [InportExcelController:60] 总数：100
+2021-01-22 09:33:23.131 [INFO] [20644] [InportExcelController:61] 长度：100
+2021-01-22 09:34:03.788 [INFO] [35212] [StartupInfoLogger:55] Starting TestdataApplication using Java 1.8.0_71 on DESKTOP-M9LL5PG with PID 35212 (C:\Users\Chinadaas\test\use\target\classes started by Chinadaas in C:\Users\Chinadaas\test\use)
+2021-01-22 09:34:03.791 [INFO] [35212] [SpringApplication:660] No active profile set, falling back to default profiles: default
+2021-01-22 09:34:04.732 [INFO] [35212] [DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8088"]
+2021-01-22 09:34:04.732 [INFO] [35212] [DirectJDKLog:173] Starting service [Tomcat]
+2021-01-22 09:34:04.732 [INFO] [35212] [DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-22 09:34:04.803 [INFO] [35212] [DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-01-22 09:34:05.320 [INFO] [35212] [PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-22 09:34:05.486 [INFO] [35212] [DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8088"]
+2021-01-22 09:34:05.501 [INFO] [35212] [DocumentationPluginsBootstrapper:160] Context refreshed
+2021-01-22 09:34:05.515 [INFO] [35212] [DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+2021-01-22 09:34:05.545 [INFO] [35212] [ApiListingReferenceScanner:41] Scanning for api listing references
+2021-01-22 09:34:05.666 [INFO] [35212] [StartupInfoLogger:61] Started TestdataApplication in 2.345 seconds (JVM running for 3.22)
+2021-01-22 09:34:08.563 [INFO] [35212] [DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-22 09:34:08.949 [INFO] [35212] [HikariDataSource:110] HikariPool-1 - Starting...
+2021-01-22 09:34:09.089 [INFO] [35212] [PoolBase:535] HikariPool-1 - Driver does not support get/set network timeout for connections. (不支持的接口或功能)
+2021-01-22 09:34:09.135 [INFO] [35212] [HikariDataSource:123] HikariPool-1 - Start completed.
+2021-01-22 09:34:15.026 [INFO] [35212] [InportExcelController:60] 总数：99
+2021-01-22 09:34:15.027 [INFO] [35212] [InportExcelController:61] 长度：100
+2021-01-22 09:41:59.145 [INFO] [30988] [StartupInfoLogger:55] Starting TestdataApplication using Java 1.8.0_71 on DESKTOP-M9LL5PG with PID 30988 (C:\Users\Chinadaas\test\use\target\classes started by Chinadaas in C:\Users\Chinadaas\test\use)
+2021-01-22 09:41:59.149 [INFO] [30988] [SpringApplication:660] No active profile set, falling back to default profiles: default
+2021-01-22 09:42:00.374 [INFO] [30988] [DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8088"]
+2021-01-22 09:42:00.375 [INFO] [30988] [DirectJDKLog:173] Starting service [Tomcat]
+2021-01-22 09:42:00.375 [INFO] [30988] [DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-22 09:42:00.455 [INFO] [30988] [DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-01-22 09:42:01.074 [INFO] [30988] [PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-22 09:42:01.266 [INFO] [30988] [DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8088"]
+2021-01-22 09:42:01.282 [INFO] [30988] [DocumentationPluginsBootstrapper:160] Context refreshed
+2021-01-22 09:42:01.294 [INFO] [30988] [DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+2021-01-22 09:42:01.325 [INFO] [30988] [ApiListingReferenceScanner:41] Scanning for api listing references
+2021-01-22 09:42:01.456 [INFO] [30988] [StartupInfoLogger:61] Started TestdataApplication in 2.868 seconds (JVM running for 3.727)
+2021-01-22 09:42:48.727 [INFO] [31472] [StartupInfoLogger:55] Starting TestdataApplication using Java 1.8.0_71 on DESKTOP-M9LL5PG with PID 31472 (C:\Users\Chinadaas\test\use\target\classes started by Chinadaas in C:\Users\Chinadaas\test\use)
+2021-01-22 09:42:48.730 [INFO] [31472] [SpringApplication:660] No active profile set, falling back to default profiles: default
+2021-01-22 09:42:49.687 [INFO] [31472] [DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8088"]
+2021-01-22 09:42:49.688 [INFO] [31472] [DirectJDKLog:173] Starting service [Tomcat]
+2021-01-22 09:42:49.688 [INFO] [31472] [DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-22 09:42:49.756 [INFO] [31472] [DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-01-22 09:42:50.255 [INFO] [31472] [PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-22 09:42:50.431 [INFO] [31472] [DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8088"]
+2021-01-22 09:42:50.444 [INFO] [31472] [DocumentationPluginsBootstrapper:160] Context refreshed
+2021-01-22 09:42:50.456 [INFO] [31472] [DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+2021-01-22 09:42:50.482 [INFO] [31472] [ApiListingReferenceScanner:41] Scanning for api listing references
+2021-01-22 09:42:50.599 [INFO] [31472] [StartupInfoLogger:61] Started TestdataApplication in 2.385 seconds (JVM running for 3.264)
+2021-01-22 09:42:59.103 [INFO] [31472] [DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-22 09:43:10.974 [INFO] [31472] [HikariDataSource:110] HikariPool-1 - Starting...
+2021-01-22 09:43:11.098 [INFO] [31472] [PoolBase:535] HikariPool-1 - Driver does not support get/set network timeout for connections. (不支持的接口或功能)
+2021-01-22 09:43:11.143 [INFO] [31472] [HikariDataSource:123] HikariPool-1 - Start completed.
+2021-01-22 09:43:45.885 [INFO] [31472] [InportExcelController:60] 总数：85
+2021-01-22 09:43:45.885 [INFO] [31472] [InportExcelController:61] 长度：100
+2021-01-22 10:03:15.832 [INFO] [29996] [StartupInfoLogger:55] Starting TestdataApplication using Java 1.8.0_71 on DESKTOP-M9LL5PG with PID 29996 (C:\Users\Chinadaas\test\use\target\classes started by Chinadaas in C:\Users\Chinadaas\test\use)
+2021-01-22 10:03:15.836 [INFO] [29996] [SpringApplication:660] No active profile set, falling back to default profiles: default
+2021-01-22 10:03:16.923 [INFO] [29996] [DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8088"]
+2021-01-22 10:03:16.923 [INFO] [29996] [DirectJDKLog:173] Starting service [Tomcat]
+2021-01-22 10:03:16.924 [INFO] [29996] [DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-22 10:03:17.009 [INFO] [29996] [DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-01-22 10:03:17.743 [INFO] [29996] [PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-22 10:03:17.962 [INFO] [29996] [DirectJDKLog:173] Starting ProtocolHandler ["http-nio-8088"]
+2021-01-22 10:03:17.982 [INFO] [29996] [DocumentationPluginsBootstrapper:160] Context refreshed
+2021-01-22 10:03:17.998 [INFO] [29996] [DocumentationPluginsBootstrapper:163] Found 1 custom documentation plugin(s)
+2021-01-22 10:03:18.066 [INFO] [29996] [ApiListingReferenceScanner:41] Scanning for api listing references
+2021-01-22 10:03:18.251 [INFO] [29996] [StartupInfoLogger:61] Started TestdataApplication in 2.838 seconds (JVM running for 3.777)
+2021-01-22 10:03:33.187 [INFO] [29996] [DirectJDKLog:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-22 10:03:52.047 [INFO] [29996] [HikariDataSource:110] HikariPool-1 - Starting...
+2021-01-22 10:03:52.162 [INFO] [29996] [PoolBase:535] HikariPool-1 - Driver does not support get/set network timeout for connections. (不支持的接口或功能)
+2021-01-22 10:03:52.422 [INFO] [29996] [HikariDataSource:123] HikariPool-1 - Start completed.
+2021-01-22 10:03:57.849 [INFO] [29996] [InportExcelController:60] 总数：85
+2021-01-22 10:03:57.849 [INFO] [29996] [InportExcelController:61] 长度：100

@@ -1,0 +1,38 @@
+2021-01-23 18:24:45.490 [INFO] [37072] [StartupInfoLogger:55] Starting TestdataApplication using Java 1.8.0_71 on DESKTOP-M9LL5PG with PID 37072 (C:\Users\Chinadaas\test\use\target\classes started by Chinadaas in C:\Users\Chinadaas\test\use)
+2021-01-23 18:24:45.498 [INFO] [37072] [SpringApplication:660] No active profile set, falling back to default profiles: default
+2021-01-23 18:24:47.261 [INFO] [37072] [DirectJDKLog:173] Initializing ProtocolHandler ["http-nio-8088"]
+2021-01-23 18:24:47.262 [INFO] [37072] [DirectJDKLog:173] Starting service [Tomcat]
+2021-01-23 18:24:47.262 [INFO] [37072] [DirectJDKLog:173] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-23 18:24:47.356 [INFO] [37072] [DirectJDKLog:173] Initializing Spring embedded WebApplicationContext
+2021-01-23 18:24:48.073 [INFO] [37072] [PropertySourcedRequestMappingHandlerMapping:69] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-23 18:24:48.270 [WARN] [37072] [AbstractApplicationContext:596] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'gsonBuilder' defined in class path resource [org/springframework/boot/autoconfigure/gson/GsonAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.google.gson.GsonBuilder]: Factory method 'gsonBuilder' threw exception; nested exception is java.lang.BootstrapMethodError: java.lang.NoSuchMethodError: com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+2021-01-23 18:24:48.274 [INFO] [37072] [DirectJDKLog:173] Stopping service [Tomcat]
+2021-01-23 18:24:48.309 [ERROR] [37072] [LoggingFailureAnalysisReporter:40] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+
+The following method did not exist:
+
+    com.google.gson.GsonBuilder.setLenient()Lcom/google/gson/GsonBuilder;
+
+The method's class, com.google.gson.GsonBuilder, is available from the following locations:
+
+    jar:file:/C:/Users/Chinadaas/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar!/com/google/gson/GsonBuilder.class
+
+The class hierarchy was loaded from the following locations:
+
+    com.google.gson.GsonBuilder: file:/C:/Users/Chinadaas/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of com.google.gson.GsonBuilder
+

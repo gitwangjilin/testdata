@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wjl.testdata.mapper.UserInfoMapper">
+
+<!-- 通用查询映射结果 -->
+<resultMap id="BaseResultMap" type="com.wjl.testdata.entity.UserInfo">
+        <result column="ID" property="id" />
+        <result column="SUBJECT_L" property="subjectL" />
+        <result column="SUBJECT_S" property="subjectS" />
+        <result column="AREA_CODE" property="areaCode" />
+        <result column="ORG_CODE" property="orgCode" />
+        <result column="REG_CODE" property="regCode" />
+        <result column="ENT_NAME" property="entName" />
+        <result column="STATE" property="state" />
+        <result column="NAME" property="name" />
+</resultMap>
+
+<!-- 通用查询结果列 -->
+<sql id="Base_Column_List">
+    ID, SUBJECT_L, SUBJECT_S, AREA_CODE, ORG_CODE, REG_CODE, ENT_NAME, STATE, NAME
+</sql>
+        <select id="findLimitOne"  resultMap="BaseResultMap">
+                select
+                <include refid="Base_Column_List"/>
+                from USER_INFO
+        </select>
+</mapper>
